@@ -1,0 +1,21 @@
+.brands-main-container {
+    width: 73.5%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.brands-main-container h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.brands-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.brands-container div img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.lakelandContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 1;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.lakelandContainer img {
+    width: 50%;
+    margin-right: 14%;
+}
+
+.lakeland {
+    background-color: #FBFAFB;
+    width: 420px;
+    height: 400px;
+    position: absolute;
+    left: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lakeland h5 {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.lakeland p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.bottom {
+    width: 78%;
+    margin: auto;
+    height: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    margin-bottom: 60px;
+}

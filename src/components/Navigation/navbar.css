@@ -1,0 +1,88 @@
+
+
+.navContainer{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    width: 100%;
+}
+
+.uppernavContainer{
+  border-bottom: 1px solid;
+}
+
+.upperNav {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.bold{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+/* MIDLLE NAV */
+
+.midnavContainer{
+ display: grid;
+ width: 78%;
+ margin: auto;
+ grid-template-columns: repeat(3,1fr);
+ align-items: center;
+ margin-top: 25px;
+ margin-bottom: 20px;
+}
+
+.midnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+.midnav li {
+    cursor: pointer;
+}
+
+.midnav li a {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.815);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* BOTTOM NAV */
+
+.bottomnavContainer{
+    background-color: black;
+}
+
+.bottomnav{
+    margin-left: 9.5%;
+    display: flex;
+    gap: 7px;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.bottomnav li{
+    padding: 10px 17px;
+}
+
+.redLink {
+    background-color: #D02329;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
